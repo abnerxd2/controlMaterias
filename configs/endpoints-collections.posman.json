@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "7dc82c59-3aeb-444f-832f-e163718e8f2d",
+		"name": "citemaescolar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37641996"
+	},
+	"item": [
+		{
+			"name": "Rejistro",
+			"item": [
+				{
+					"name": "rehjistramos un maestro",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "rejistramosAlumno",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "loginAlumno",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tareas",
+			"item": [
+				{
+					"name": "AgregarMaterias",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizarmateria",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{ 
+					"name": "EliminarMateria",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "listarMAterias",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:3000/schoolsystem/v1/subjects/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "matriculal",
+			"item": [
+				{
+					"name": "matricular",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Estudiantes",
+			"item": [
+				{
+					"name": "lisEstudiantes",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "misCuross",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
