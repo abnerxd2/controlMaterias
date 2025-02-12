@@ -1,5 +1,6 @@
 # Estructura de Rutas
-## La API se organiza en tres módulos principales, cada uno montado en una ruta base:
+### Esta API está diseñada para manejar el sistema de un centro educativo, con funcionalidades como asignar materias e iniciar sesión, lo cual permite separar las funciones según el rol que pertenezca a cada usuario
+###La API fue desarrollada en JavaScript y Node.js, utilizando MongoDB como base de datos.
 
 ## Autenticación
 ### URL Base:
