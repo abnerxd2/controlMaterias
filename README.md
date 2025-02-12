@@ -1,5 +1,5 @@
 # Estructura de Rutas
-### Esta API está diseñada para manejar el sistema de un centro educativo, con funcionalidades como asignar materias e iniciar sesión, lo cual permite separar las funciones según el rol que pertenezca a cada usuario
+### Esta API está diseñada para manejar el sistema de asignaturas de un centro educativo, con funcionalidades como asignar materias e iniciar sesión, lo cual permite separar las funciones según el rol que pertenezca a cada usuario
 ###La API fue desarrollada en JavaScript y Node.js, utilizando MongoDB como base de datos.
 
 ## Autenticación
